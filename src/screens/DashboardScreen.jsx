@@ -14,7 +14,11 @@ const icons = {
 
 export default function DashboardScreen() {
   return (
-    <ScreenLayout title="Dashboard" subtitle={`Good morning, ${currentUser.name.split(" ")[0]}`} contentClassName="space-y-5">
+    <ScreenLayout
+      title="Dashboard"
+      subtitle={`Good morning, ${currentUser.name.split(" ")[0]}`}
+      contentClassName="home-dashboard space-y-5"
+    >
       <section className="grid grid-cols-2 gap-3">
         {stats.map((stat, i) => (
           <StatCard key={stat.id} {...stat} icon={icons[stat.id]} delay={i * 60} />

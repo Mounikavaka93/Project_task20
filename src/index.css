@@ -25,6 +25,15 @@ body,
   min-height: 100dvh;
 }
 
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
 #root {
   display: flex;
   flex-direction: column;
@@ -75,4 +84,13 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.home-dashboard {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.home-dashboard::-webkit-scrollbar {
+  display: none;
 }
