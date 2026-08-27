@@ -13,7 +13,7 @@ export default function NotificationsScreen() {
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <Header title="Notifications" subtitle="Alerts from the operations desk" showBack right={null} />
-      <main className="flex-1 space-y-3 overflow-y-auto px-4 pb-5 pt-4">
+      <main className="app-scroll flex-1 space-y-3 overflow-y-auto px-4 pb-5 pt-4">
         {notifications.map((n) => {
           const meta = kinds[n.kind] || kinds.info
           const Icon = meta.icon

@@ -17,7 +17,7 @@ export default function DashboardScreen() {
     <ScreenLayout
       title="Dashboard"
       subtitle={`Good morning, ${currentUser.name.split(" ")[0]}`}
-      contentClassName="home-dashboard space-y-5"
+      contentClassName="space-y-5"
     >
       <section className="grid grid-cols-2 gap-3">
         {stats.map((stat, i) => (

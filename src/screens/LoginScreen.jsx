@@ -34,7 +34,7 @@ export default function LoginScreen() {
   }
 
   return (
-    <div className="no-scrollbar flex min-h-full flex-1 flex-col overflow-y-auto scroll-smooth bg-slate-50 px-6 pb-8 pt-12">
+    <div className="app-scroll flex min-h-full flex-1 flex-col overflow-y-auto bg-slate-50 px-6 pb-8 pt-12">
       <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-navy-900 text-white shadow-lg">
         <Cpu size={26} />
       </div>

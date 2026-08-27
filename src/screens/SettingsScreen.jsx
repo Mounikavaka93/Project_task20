@@ -33,7 +33,7 @@ export default function SettingsScreen() {
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <Header title="Settings" subtitle="Workspace preferences" showBack right={null} />
-      <main className="flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4">
+      <main className="app-scroll flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4">
         <section className="overflow-hidden rounded-2xl bg-white ring-1 ring-slate-100">
           <p className="px-4 pt-3 text-[11px] font-bold uppercase tracking-wider text-slate-400">Notifications</p>
           <Toggle checked={push} onChange={setPush} label="Push alerts" hint="Critical tickets and asset warnings" />

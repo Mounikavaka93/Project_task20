@@ -14,7 +14,7 @@ export default function ProfileScreen() {
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <Header title="Profile" subtitle="Your IT workspace identity" />
-      <main className="flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4">
+      <main className="app-scroll flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4">
         <section className="rounded-2xl bg-white p-5 text-center shadow-sm ring-1 ring-slate-100">
           <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-navy-900 text-lg font-bold text-white">
             {currentUser.avatarInitials}

@@ -27,7 +27,7 @@ export default function AssetsScreen() {
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <Header title="Assets" subtitle="Devices, servers, and peripherals" />
-      <main className="flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4">
+      <main className="app-scroll flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4">
         <SearchBar value={query} onChange={setQuery} placeholder="Search assets, owners, IDs" />
         <FilterPills options={types} value={type} onChange={setType} />
         <div className="space-y-3">

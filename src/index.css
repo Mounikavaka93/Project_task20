@@ -77,20 +77,12 @@ body {
   animation: splash-pulse 1.6s ease-in-out infinite;
 }
 
-.no-scrollbar::-webkit-scrollbar {
+.app-scroll::-webkit-scrollbar {
   display: none;
 }
 
-.no-scrollbar {
+.app-scroll {
   -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.home-dashboard {
   scroll-behavior: smooth;
   scrollbar-width: none;
-}
-
-.home-dashboard::-webkit-scrollbar {
-  display: none;
 }

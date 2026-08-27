@@ -1,6 +1,6 @@
 export default function FilterPills({ options, value, onChange }) {
   return (
-    <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto overflow-y-hidden px-4 py-0.5">
+    <div className="app-scroll -mx-4 flex gap-2 overflow-x-auto overflow-y-hidden px-4 py-0.5">
       {options.map((option) => (
         <button
           key={option}

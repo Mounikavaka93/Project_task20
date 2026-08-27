@@ -23,7 +23,7 @@ export default function TasksScreen() {
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <Header title="Tasks" subtitle="Priority work for the ops desk" />
-      <main className="flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4">
+      <main className="app-scroll flex-1 space-y-4 overflow-y-auto px-4 pb-5 pt-4">
         <SearchBar value={query} onChange={setQuery} placeholder="Search tasks or projects" />
         <FilterPills options={filters} value={filter} onChange={setFilter} />
         <div className="space-y-3">
